@@ -5,7 +5,7 @@ const socket = io({
         token: "abcd"
     },
     query: {
-        x: 42
+        x: 422
     }
 });
 

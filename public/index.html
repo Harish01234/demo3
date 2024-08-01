@@ -30,14 +30,14 @@
     <script>
         console.log(io());
 
-        const socket = io({
-            auth: {
-                token: "abcd"
-            },
-            query: {
-                x: 422
-            }
-        });
+        const socket = io('https://demo3-beryl.vercel.app', {
+    auth: {
+        token: "abcd"
+    },
+    query: {
+        x: 422
+    }
+});
 
 
         socket.on('welcome', (data) => {
